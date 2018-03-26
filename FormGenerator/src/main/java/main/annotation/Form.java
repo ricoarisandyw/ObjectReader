@@ -11,15 +11,9 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD) //can use in method only.
 public @interface Form {
+    Type type() default Type.TEXT;
 
-
-    int value() default 10;
-    FormType type() default FormType.TEXT;
-
-    /**
-     * Created by wijaya on 3/26/2018.
-     */
-    enum FormType {
-        TEXT,PASSWORD,CHECKBOX,RADIO_BUTTON;
+    enum Type {
+        TEXT,PASSWORD,CHECKBOX,RADIO_BUTTON,NONE;
     }
 }
