@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e6db684-607c-4fa4-b47b-d80fe4e60aec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FormGenerator/src/main/java/main/ArisanForm.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FormGenerator/src/main/java/main/FieldDetail.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FormGenerator/src/main/java/main/helper/ObjectSetter.java" />
-      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\src\main\resources\jj.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\target\classes\jj.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\target\classes\main\ObjectReader.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\target\classes\main\annotation\Form$FormType.class" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\src\main\java\main\ObjectReader.java" afterPath="$PROJECT_DIR$/FormGenerator/src/main/java/main/helper/ObjectReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FormGenerator/target/classes/main/annotation/Form.class" afterPath="$PROJECT_DIR$/FormGenerator/target/classes/main/annotation/Form.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FormGenerator/target/classes/main/FormGenerator.class" afterPath="$PROJECT_DIR$/FormGenerator/target/classes/main/FormGenerator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FormGenerator/target/classes/main/Item.class" afterPath="$PROJECT_DIR$/FormGenerator/target/classes/main/Item.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FormGenerator/src/main/java/main/annotation/Form.java" afterPath="$PROJECT_DIR$/FormGenerator/src/main/java/main/annotation/Form.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FormGenerator/src/main/java/main/FormGenerator.java" afterPath="$PROJECT_DIR$/FormGenerator/src/main/java/main/FormGenerator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FormGenerator/src/main/java/main/Item.java" afterPath="$PROJECT_DIR$/FormGenerator/src/main/java/main/Item.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FormGenerator.iws" />
@@ -734,12 +722,19 @@
       <option name="number" value="Default" />
       <updated>1521863787087</updated>
       <workItem from="1521863790048" duration="3823000" />
-      <workItem from="1522027297665" duration="12199000" />
+      <workItem from="1522027297665" duration="12229000" />
     </task>
+    <task id="LOCAL-00001" summary="Set Object to Response">
+      <created>1522039819392</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522039819392</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16022000" />
+    <option name="totallyTimeSpent" value="16052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -790,6 +785,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Set Object to Response" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set Object to Response" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
