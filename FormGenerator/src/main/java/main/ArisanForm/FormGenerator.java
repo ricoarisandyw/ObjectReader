@@ -1,9 +1,8 @@
-package main;
+package main.ArisanForm;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import main.helper.ObjectSetter;
-import main.helper.ObjectReader;
+import main.ArisanForm.helper.ObjectReader;
 
 /**
  * Created by wijaya on 3/24/2018.

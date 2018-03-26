@@ -1,7 +1,7 @@
-package main;
+package main.ArisanForm;
 
-import main.helper.ObjectReader;
-import main.helper.ObjectSetter;
+import main.ArisanForm.helper.ObjectReader;
+import main.ArisanForm.helper.ObjectSetter;
 
 import java.util.List;
 

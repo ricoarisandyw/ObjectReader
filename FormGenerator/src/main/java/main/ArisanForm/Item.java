@@ -1,8 +1,6 @@
-package main;
+package main.ArisanForm;
 
-import main.annotation.Form;
-
-import java.util.List;
+import main.ArisanForm.annotation.Form;
 
 /**
  * Created by wijaya on 3/24/2018.

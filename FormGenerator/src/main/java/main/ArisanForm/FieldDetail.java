@@ -1,4 +1,4 @@
-package main;
+package main.ArisanForm;
 
 import java.util.List;
 

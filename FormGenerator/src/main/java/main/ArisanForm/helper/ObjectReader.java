@@ -1,15 +1,12 @@
-package main.helper;
+package main.ArisanForm.helper;
 
-import main.FieldDetail;
-import main.annotation.Form;
+import main.ArisanForm.FieldDetail;
+import main.ArisanForm.annotation.Form;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
-import java.util.function.Predicate;
 
 /**
  * Created by wijaya on 3/24/2018.

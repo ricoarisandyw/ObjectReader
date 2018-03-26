@@ -1,4 +1,4 @@
-package main.annotation;
+package main.ArisanForm.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -12,6 +12,7 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD) //can use in method only.
 public @interface Form {
     Type type() default Type.TEXT;
+    String[] list();
 
     enum Type {
         TEXT,PASSWORD,CHECKBOX,RADIO_BUTTON,NONE;
