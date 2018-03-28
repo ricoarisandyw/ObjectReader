@@ -12,9 +12,11 @@ import java.lang.annotation.Target;
 @Target(ElementType.FIELD) //can use in method only.
 public @interface Form {
     Type type() default Type.TEXT;
-    String[] list();
+    String[] list() default {};
+    boolean confirm() default false;
+    int viewType() default 0;
 
     enum Type {
-        TEXT,PASSWORD,CHECKBOX,RADIO_BUTTON,NONE;
+        TEXT,PASSWORD,NUMBER,CHECKBOX,RADIO,NONE,DATE,TIME;
     }
 }

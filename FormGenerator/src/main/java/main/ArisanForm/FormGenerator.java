@@ -15,6 +15,8 @@ public class FormGenerator {
         final Gson gson = builder.create();
 
         Item item = new Item();
+        item.setName("Yuki");
+        item.setDamage(1000);
         System.out.println(gson.toJson(ObjectReader.getFieldName(item)));
 
         new ArisanForm().setObject(item, new ArisanForm.OnResponse() {
