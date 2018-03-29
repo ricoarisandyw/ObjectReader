@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e6db684-607c-4fa4-b47b-d80fe4e60aec" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ObjectReader/src/main/java/main/ObjectReader/model/FieldFiller.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ObjectReader/src/main/java/main/ObjectReader/FormGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ObjectReader/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ObjectReader/src/main/java/main/ObjectReader/model/Player.java" />
-      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\libraries\Maven__com_h2database_h2_1_4_197.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\src\main\java\main\ArisanForm\FormGenerator.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\FormGenerator.iml" afterPath="$PROJECT_DIR$/ObjectReader/ObjectReader.iml" />
-      <change type="MOVED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\pom.xml" afterPath="$PROJECT_DIR$/ObjectReader/pom.xml" />
-      <change type="MOVED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\src\main\java\main\ArisanForm\ArisanForm.java" afterPath="$PROJECT_DIR$/ObjectReader/src/main/java/main/ObjectReader/FormAdapter.java" />
-      <change type="MOVED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\src\main\java\main\ArisanForm\FieldDetail.java" afterPath="$PROJECT_DIR$/ObjectReader/src/main/java/main/ObjectReader/model/FieldDetail.java" />
-      <change type="MOVED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\src\main\java\main\ArisanForm\Item.java" afterPath="$PROJECT_DIR$/ObjectReader/src/main/java/main/ObjectReader/model/Item.java" />
-      <change type="MOVED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\src\main\java\main\ArisanForm\annotation\Form.java" afterPath="$PROJECT_DIR$/ObjectReader/src/main/java/main/ObjectReader/annotation/Form.java" />
-      <change type="MOVED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\src\main\java\main\ArisanForm\helper\ObjectGetter.java" afterPath="$PROJECT_DIR$/ObjectReader/src/main/java/main/ObjectReader/helper/ObjectGetter.java" />
-      <change type="MOVED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\src\main\java\main\ArisanForm\helper\ObjectReader.java" afterPath="$PROJECT_DIR$/ObjectReader/src/main/java/main/ObjectReader/helper/ObjectReader.java" />
-      <change type="MOVED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\FormGenerator\src\main\java\main\ArisanForm\helper\ObjectSetter.java" afterPath="$PROJECT_DIR$/ObjectReader/src/main/java/main/ObjectReader/helper/ObjectSetter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\libraries\Maven__com_android_support_appcompat_v7_26_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\libraries\Maven__com_github_tntkhang_preferences_helper_1_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\libraries\Maven__com_google_code_gson_gson_2_8_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\libraries\Maven__com_google_guava_guava_20_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\libraries\Maven__org_javassist_javassist_3_21_0_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\libraries\Maven__org_reflections_reflections_0_9_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\wijaya\IdeaProjects\FormGenerator\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="FormGenerator.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,7 +42,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ObjectReader/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6449086">
+            <state vertical-scroll-proportion="1.1067709">
               <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding />
             </state>
@@ -171,6 +167,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -653,7 +655,7 @@
       <workItem from="1522206300382" duration="3550000" />
       <workItem from="1522220524642" duration="15282000" />
       <workItem from="1522276243364" duration="104000" />
-      <workItem from="1522288221207" duration="4476000" />
+      <workItem from="1522288221207" duration="4589000" />
     </task>
     <task id="LOCAL-00001" summary="Set Object to Response">
       <created>1522039819392</created>
@@ -679,11 +681,17 @@
       <option name="project" value="LOCAL" />
       <updated>1522209839955</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactoring">
+      <created>1522295663931</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1522295663931</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42625000" />
+    <option name="totallyTimeSpent" value="42738000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -705,9 +713,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.50907713" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3267974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -737,9 +745,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Set Object to Response" />
-    <MESSAGE value="Refactoring" />
     <MESSAGE value="Add Object Getter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Object Getter" />
+    <MESSAGE value="Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1300,7 +1308,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ObjectReader/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6449086">
+        <state vertical-scroll-proportion="1.1067709">
           <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding />
         </state>
