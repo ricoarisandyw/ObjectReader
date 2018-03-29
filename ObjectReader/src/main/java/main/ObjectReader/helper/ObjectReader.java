@@ -1,14 +1,13 @@
-package main.ArisanForm.helper;
+package main.ObjectReader.helper;
 
-import main.ArisanForm.FieldDetail;
-import main.ArisanForm.annotation.Form;
+import main.ObjectReader.model.FieldDetail;
+import main.ObjectReader.annotation.Form;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.lang.reflect.ParameterizedType;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -31,7 +30,7 @@ public class ObjectReader {
                 Annotation annotation = f.getAnnotation(Form.class);
                 Form form = (Form) annotation;
 
-                result += "\nAnnotation Data Type : " + form.type();
+                result += "\nAnnotation Data ViewType : " + form.type();
             }
             result += "\nDeclared " + f.getType().getName() + " " + f.getName();
         }
@@ -55,27 +54,16 @@ public class ObjectReader {
                 Annotation annotation = f.getAnnotation(Form.class);
                 Form form = (Form) annotation;
 
-                fieldDetail.setAnnotation(form.type().name());
+                fieldDetail.setViewType(form.type().name());
                 fieldDetail.setConfirm(form.confirm());
-                fieldDetail.setList(Arrays.asList(form.list()));
-                for (Method m : method) {
-                    if (
-                            m.getName().toLowerCase().equals("get" + f.getName().toLowerCase()) ||
-                                    m.getName().toLowerCase().equals("is" + f.getName().toLowerCase())
-                            )
-                        try {
-                            fieldDetail.setValue(m.invoke(o));
-                        } catch (IllegalAccessException e) {
-                            e.printStackTrace();
-                        } catch (InvocationTargetException e) {
-                            e.printStackTrace();
-                        }
-                }
-                fieldDetail.setViewType(0);
 
                 fieldDetail.setName(f.getName());
-                fieldDetail.setType(f.getType().getName());
-
+                fieldDetail.setFieldType(f.getType().getName());
+                if(f.getType() == List.class){
+                    ParameterizedType integerListType = (ParameterizedType) f.getGenericType();
+                    Class<?> integerListClass = (Class<?>) integerListType.getActualTypeArguments()[0];
+                    fieldDetail.setFieldType("List of " + integerListType.getActualTypeArguments()[0]);
+                }
                 detailList.add(fieldDetail);
             }
         }

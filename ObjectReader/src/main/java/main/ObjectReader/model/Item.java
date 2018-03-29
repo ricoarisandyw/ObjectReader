@@ -1,6 +1,6 @@
-package main.ArisanForm;
+package main.ObjectReader.model;
 
-import main.ArisanForm.annotation.Form;
+import main.ObjectReader.annotation.Form;
 
 import java.util.List;
 
@@ -8,10 +8,14 @@ import java.util.List;
  * Created by wijaya on 3/24/2018.
  */
 public class Item{
-    @Form(type = Form.Type.PASSWORD,list = {"Rico","Arisandy","Wijaya"})
+
+    @Form
+    int id;
+
+    @Form(type = Form.ViewType.PASSWORD)
     private String name;
 
-    @Form(type = Form.Type.NUMBER)
+    @Form(type = Form.ViewType.NUMBER)
     private int damage;
 
     private boolean wearable;
@@ -21,11 +25,20 @@ public class Item{
     public Item() {
     }
 
-    public Item(String name, int damage, boolean wearable, List<String> skill) {
+    public Item(int id, String name, int damage, boolean wearable, List<String> skill) {
+        this.id = id;
         this.name = name;
         this.damage = damage;
         this.wearable = wearable;
         this.skill = skill;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {

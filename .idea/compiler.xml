@@ -23,10 +23,12 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="FormGenerator" />
+        <module name="ObjectReader" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="FormGenerator" target="1.5" />
+      <module name="ObjectReader" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,9 +1,8 @@
-package main.ArisanForm.helper;
+package main.ObjectReader.helper;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-import java.util.logging.Logger;
 
 /**
  * Created by wijaya on 3/28/2018.
@@ -36,7 +35,6 @@ public class ObjectGetter {
                 }
             }
         }
-
 
         return null;
     }

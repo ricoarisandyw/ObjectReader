@@ -1,4 +1,4 @@
-package main.ArisanForm.annotation;
+package main.ObjectReader.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -11,12 +11,20 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD) //can use in method only.
 public @interface Form {
-    Type type() default Type.TEXT;
-    String[] list() default {};
+    ViewType type() default ViewType.TEXT;
     boolean confirm() default false;
-    int viewType() default 0;
+    Relation relation() default Relation.ManyToMany;
+    Mode mode() default Mode.Choice;
 
-    enum Type {
-        TEXT,PASSWORD,NUMBER,CHECKBOX,RADIO,NONE,DATE,TIME;
+    enum ViewType {
+        TEXT,PASSWORD,NUMBER,CHECKBOX,RADIO,DATE,TIME;
+    }
+
+    enum Relation {
+        Single, Multi, ManyToMany;
+    }
+
+    enum Mode {
+        Fill,Choice;
     }
 }
